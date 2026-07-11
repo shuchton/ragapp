@@ -2,7 +2,7 @@
 
 A Go implementation of a Retrieval-Augmented Generation (RAG) application, built
 while following Trevor Sawler's Udemy course
-[*Building a RAG Application in Go (Golang)*](https://www.udemy.com/).
+[*Building a RAG Application in Go (Golang)*](https://www.udemy.com/course/building-a-rag-application-in-go-golang).
 
 This repository tracks the course end-to-end: it starts as a minimal terminal
 chat client wired to an LLM and grows into a full RAG pipeline with a vector
