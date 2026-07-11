@@ -1,0 +1,15 @@
+package app
+
+import (
+	"context"
+
+	"github.com/shuchton/ragapp/config"
+	"github.com/shuchton/ragapp/llm"
+)
+
+func Run(ctx context.Context, cfg config.Config) error {
+	client := llm.New(cfg)
+	return chat.RunREPL(ctx, client, chat.Options{
+		SystemPromptFile: cfg.SystemPromptFile,
+	})
+}
