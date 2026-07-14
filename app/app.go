@@ -3,6 +3,7 @@ package app
 import (
 	"context"
 
+	"github.com/shuchton/ragapp/chat"
 	"github.com/shuchton/ragapp/config"
 	"github.com/shuchton/ragapp/llm"
 )
